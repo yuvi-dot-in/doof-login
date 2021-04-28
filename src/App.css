@@ -13,7 +13,6 @@
   right: 0;
   bottom: 0;
   background: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .Header {
   top: 0;
@@ -98,7 +97,7 @@ p > a:hover {
 }
 .illustration > p {
   line-height: 22px;
-  margin-left: 20vw;
+  margin-left: 30vw;
   font-size: 14px;
   font-weight: 500;
 }
@@ -106,4 +105,64 @@ p > a:hover {
 .illustration > .svg {
   height: 250px;
   width: auto;
+}
+.footer {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 110px;
+  display: flex;
+  position: relative;
+}
+.footer > a {
+  margin-right: 30px;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1340px) {
+  .App-body {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none;
+    width: 100vw;
+  }
+  .login {
+    width: 70vw;
+    margin: 10px;
+    z-index: 1;
+  }
+  .input {
+    width: 60vw;
+  }
+  .submit {
+    width: 64vw;
+  }
+  .test {
+    max-width: 200px;
+    flex: 0.4;
+    margin: 0px;
+    font-size: 13px;
+    padding: 10px;
+  }
+  .brand {
+    flex: 0.8;
+    padding: 0px;
+  }
+  .Header {
+    padding: 30px;
+    justify-content: space-between;
+  }
+
+  .illustration {
+    text-align: center;
+    background-color: #ffe999;
+    margin: 0px;
+    right: 0;
+    border-top-left-radius: 400px;
+    border-bottom-left-radius: 400px;
+  }
+  .illustration > p {
+    margin: 0px 30px;
+  }
 }

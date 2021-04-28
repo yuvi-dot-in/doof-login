@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import bg from "./assets/bg.png";
-import loginSVG from "./assets/Login.png";
+import loginSVG from "./assets/Login.svg";
 
 function App() {
   const [email, setEmail] = useState("");
@@ -55,6 +55,10 @@ function App() {
             <br />
             <img className="svg" src={loginSVG} alt="Login SVG" />
           </div>
+        </div>
+        <div className="footer">
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
         </div>
       </div>
     </div>
