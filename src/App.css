@@ -119,7 +119,7 @@ p > a:hover {
   font-size: 14px;
 }
 
-@media screen and (max-width: 1340px) {
+@media screen and (max-width: 1140px) {
   .App-body {
     flex-direction: column;
     justify-content: center;
@@ -133,10 +133,10 @@ p > a:hover {
     z-index: 1;
   }
   .input {
-    width: 60vw;
+    width: 260px;
   }
   .submit {
-    width: 64vw;
+    width: 270px;
   }
   .test {
     max-width: 200px;
@@ -159,10 +159,23 @@ p > a:hover {
     background-color: #ffe999;
     margin: 0px;
     right: 0;
-    border-top-left-radius: 400px;
-    border-bottom-left-radius: 400px;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 200px;
+    border-top-right-radius: 300px;
   }
   .illustration > p {
     margin: 0px 30px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .illustration > .svg {
+    height: 200px;
+  }
+  .input {
+    width: 60vw;
+  }
+  .submit {
+    width: 64vw;
   }
 }
